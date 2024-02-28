@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <style>
+        *{
+            padding: 0;
+        }
+        body{
+            
+            background-image: url(gradient-white-background_41969-18823.webp);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 90vh;
+        }
+form{
+    border: 2px solid gray;
+    border-radius: 10px ;
+    width: 30%;
+    height: 70vh;
+   box-shadow: 0 0 15px black;
+    padding: 5px 20px;
+    backdrop-filter: blur(50px);
+}
+.logo{
+    font-size: 20px ;
+    font-weight: 600;
+    color: white;
+   position: relative;
+   left: -40%;
+  
+}
+input{
+    padding: 5px;
+    margin-top: 6px;
+}
+.box{
+    border: 2px solid transparent;
+    height: 30vh;
+    display: grid;
+    grid-template-rows: 25px 1fr;
+    padding: 10px 25px;
+}
+h2{
+    position: relative;
+    left: 35%;
+}
+.box2{
+    margin-left: 100px;
+}
+ button{
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 5px 9px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid gray;
+    background-color: gray;
+}
+
+.box3{
+    margin-top: 9px;
+}
+label{
+    margin-top: 10px;
+    color: black;
+}
+center button{
+    width: 50px;
+    position: relative;
+    
+    left: -100px;
+
+}
+h2{
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid gray;
+    height: 5vh;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg,black,red,black);
+}
+.butt a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 18px;
+    margin-left: 50px;
+    background-color: aqua;
+    padding: 3px 9px;
+    color: black;
+}
+
+    </style>
+</head>
+<body>
+<nav>
+    <div class="butt">
+        <a href="../Home.html">Home</a>
+    </div>
+    <div class="logo">Resgistration page</div>
+</nav>
+
+   
+   <section>
+
+    <form action="./Task-1.html">
+        <h2><u>Register form</u></h2>
+        
+
+<div class="box">
+    <label for="">Fist Name:</label>
+    <input type="text" placeholder="enter first name" required>
+    
+    <label for="">Last Name </label>
+    <input type="text" placeholder="enter last name" required>
+    <label for="">email:</label>
+    <input type="email" placeholder="enter email" required>
+    <div class="box3">
+        <label for="">gender:</label>
+
+<input type="radio" >
+<label for="">male</label>
+
+<input type="radio"><label for="">female</label>
+    </div>
+<label for="">password:</label>
+
+    <input type="password" placeholder="enter password" required>
+    <label for="">Re-enter password:</label>
+<input type="password" placeholder="re-enter password"><br>
+<div class="box2">
+    
+<div class="but"><button>submit</button></div>
+</div>
+</div>
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </section>
+</body>
+</html>

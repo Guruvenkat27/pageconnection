@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form task</title>
+    <style>
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background-image: url(tree.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+  form{
+    display: grid;
+    gap: 8px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    width: 20%;
+    padding:1px 30px ;
+    padding-bottom: 30px;
+   box-shadow: 0 0 20px black;
+   backdrop-filter: blur(10px);
+   
+  }
+  label{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  input{
+    padding: 3px 7px;
+    width: 90%;
+  }
+  .box input{
+    margin-left: -120px;
+  }
+  .box1 label{
+    position: relative;
+    left: 30px;
+    top: -29px;
+    font-size: 14px;
+  }
+  .for a{
+    margin-top: -56px;
+   position: relative;
+   left: 170px;
+   font-size: 14px;
+  }
+  .box3 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  }
+  .box3 input{
+    width: 60px;
+  }
+  .box3 button a{
+    color: black;
+  }
+    </style>
+</head>
+<body>
+    
+   
+    <form action="../book/resume/resume.html">
+     <center>  <h1><ins>LOGIN</ins></h1></center>
+       <label for="">UserName:</label>
+       <input type="text" placeholder="Username">
+       <label for="">Password:</label>
+       <input type="password" placeholder="Password">
+       <div class="box"><input type="checkbox"></div>
+<div class="box1">       <label for="">remember</label></div>
+      <div class="for"> <a href="">forgot password</a></div>
+       <div class="box3"><input type="submit">
+        <button><a href="./Task-2.html">Signup</a></button>
+      </div>
+       
+
+    </form>
+</body>
+</html>
