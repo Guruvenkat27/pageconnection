@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+           
+            background-image: linear-gradient( rgba(0, 0, 0, 0.7 ), rgba(0, 0, 0, 0.5)),  url('./9003694-top-web-development-stacks-to-consider.webp');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 97vh;
+        }
+        
+        nav{
+            border: 2px solid transparent;
+            border-radius: 70px;
+            box-shadow: 0 0 10px gray;
+            justify-content: space-between;
+        margin: 0 7px;
+            align-items: center;
+            height: 7vh;
+            margin-top: 20px;
+            display: flex;
+            background-image: linear-gradient(60deg, white, red, black);
+        }
+        
+        .na{
+            position: relative;
+            left: -35px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            
+        }
+        .na a{
+            margin-left: 30px;
+            border: 2px solid transparent;
+            padding: 4px 10px;
+            text-decoration: none;
+            transition: .4s linear;
+            font-size: 18px;
+            color: white;
+
+        }
+    
+        .na a:hover{
+        border-radius: 20px;
+       font-weight: 400;
+       color: black;
+       border-color: aqua;
+       background-color: aqua;
+        }
+
+
+        .sec{
+            border: 2px solid transparent;
+            height: 84vh;
+        }
+       .name{
+        border: 2px solid transparent;
+        width: 60%;
+        height: 50vh;
+        position: fixed;
+        left: 30px;
+        top: 30%;
+       }
+       .name .para{
+        font-size: 36px ;
+        position: relative;
+      display: block;
+        left: 8%;
+        top: 10%;
+       
+       }
+       .para p{
+        margin-top: 20px;
+        color: aliceblue;
+       }
+       .para p:nth-child(2){
+        margin-left: 21%;
+       }
+       .but{
+        display: flex;
+        position: relative;
+        left: 26%;
+        top: 25%;
+       }
+       .but li a{
+        margin-left: 80px;
+        font-size: 20px;
+        width: 15%;
+        color: white;
+        border: 2px solid gray;
+        border-radius: 20px;
+        padding: 7px 20px;
+        
+        background-color: red;
+      
+        text-decoration: none;
+       transition: .3s linear;
+        
+       }
+      
+        
+        
+        .name p span{
+            color: red;
+        }
+        .box1{
+            border: 2px solid transparent;
+            width: 37%;
+          
+            height: 70vh;
+            position: fixed;
+            left: 60%;
+     display: grid;
+     grid-template-columns: auto auto auto;
+    
+            margin-top: 52px;
+            
+        }
+        .box1 .b1{
+            border: 2px solid transparent;
+            width: 61%;
+border-radius: 50%;
+background-color: transparent;
+margin: 10px 10px;
+filter: drop-shadow( 0 0 10px transparent);
+            height: 15vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            transition: .2s linear;
+            cursor: pointer;
+        }
+ 
+
+       .box1 .b1 i{
+        font-size: 60px;
+       
+       }
+       .box1 .b1:hover{
+        transform: scale(1.1);
+       }
+        .head{
+            position: relative;
+            left: 4%;
+        }
+        h1{
+            font-size: 30px;
+            cursor: pointer;
+        }
+        h1 span{
+            color: red;
+        }
+       .fa-html5{
+        color: rgb(236, 99, 0);
+       }
+       .fa-css3-alt{
+        color: rgb(20, 108, 223);
+       }
+       .fa-js{
+color: rgb(215, 198, 8);
+       }
+.fa-php{
+    color: rgb(34, 94, 178);
+}
+.fa-bootstrap{
+color: rgb(199, 0, 244);
+}
+.fa-database{
+    color: rgba(0, 76, 255, 0.479);
+}
+
+.fa-python{
+    color: rgb(16, 198, 98);
+}
+.box1 .b1:nth-child(1){
+    animation: rotate .5s linear;
+}
+.box1 .b1:nth-child(2){
+    animation: rotate1 .5s linear;
+}
+.box1 .b1:nth-child(3){
+    animation: rotate2 .5s linear;
+}
+.box1 .b1:nth-child(4){
+    animation: rotate3 .5s linear;
+}.box1 .b1:nth-child(6){
+    animation: rotate4 .5s linear;
+}
+.box1 .b1:nth-child(7){
+    animation: rotate5 .5s linear;
+    position: relative;
+    left: 110%;
+}
+@keyframes rotate {
+    0%{
+        position: relative;
+        left: 95%;
+        top: 85%;
+    }
+    100%{
+     left: 0%;      
+    }
+}
+@keyframes rotate1 {
+    0%{
+        position: relative;
+        
+        top: 85%;
+    }
+    100%{
+     top: 0%;      
+    }
+}
+@keyframes rotate2 {
+    0%{
+        position: relative;
+        left: -97%;
+        top: 85%;
+    }
+    100%{
+     left: 0%;      
+    }
+}
+@keyframes rotate3 {
+    0%{
+        position: relative;
+        
+        left: 85%;
+    }
+    100%{
+     left: 0%;      
+    }
+}
+@keyframes rotate4 {
+    0%{
+        position: relative;
+        
+        left: -85%;
+    }
+    100%{
+     left: 0%;      
+    }
+}
+@keyframes rotate5 {
+    0%{
+        position: relative;
+        
+        top: -85%;
+    }
+    100%{
+     top: 0%;      
+    }
+}
+    </style>
+</head>
+<body>
+   
+   <nav> <div class="head">
+    <header> <h1><span>Full-Stack</span> Developer</h1></header>
+   </div>
+   
+    <div class="na">
+       <li> <a href="#">Home</a></li>
+        <li><a href="#">Contact us</a></li>
+    <li><a href="#">About us</a></li>
+   
+    </div>
+   </nav>
+   <section class="sec">
+    <div class="name">
+       <div class="para"> <p>Welcome To My <span><b>Full-Stack Developer</b></span> Course!</p><p>What I Have Learned......</p></div>
+        <div class="but"><li><a href="./signup.html"> Explore →</a></li></div>
+        
+       
+ </div>
+    <div class="box1">
+     
+      <div class="b1 c1">  <i class="fa-brands fa-html5"></i></div>
+       <div class="b1 c2"> <i class="fa-brands fa-css3-alt"></i></div>
+       <div class="b1 c3"> <i class="fa-brands fa-js"></i></div>
+       <div class="b1 c4"> <i class="fa-brands fa-php"></i></div>
+       <div class="b1 c5"> 
+        <i class="fa-brands fa-python"></i></div>
+       <div class="b1 c6">   <i class="fa-brands fa-bootstrap"></i></div>
+       <div class="b1 c7"> <i class="fa-solid fa-database"></i></div>
+       
+       
+      
+      
+       
+    </div>
+
+
+   </section>
+   <section class="sec1">
+
+   </section>
+</body>
+</html>
